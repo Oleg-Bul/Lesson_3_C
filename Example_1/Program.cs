@@ -48,3 +48,15 @@ string Method4(int count, string text)
 }
 string res = Method4(10, "qwerty");//склейка 10 текстов "qwerty" через String.Empty
 Console.WriteLine(res);
+//Вид 5 цикл For
+string MethodFor(int count, string text)
+{
+    string result = String.Empty;
+    for(int i = 0;i < count; i++)
+    {
+        result = result + text;   
+    }
+    return result;
+}
+string resFor = MethodFor(10, "qwerty");//склейка 10 текстов "qwerty" через String.Empty
+Console.WriteLine(res);
